@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ananya Sharma | Portfolio</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      background: #34495e;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .cards-container, .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+      gap: 2rem;
+    }
+
+    .card, .project {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover, .project:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img, .project img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .card h2, .project h3 {
+      margin: 0.5rem 0;
+      font-size: 1.5rem;
+    }
+
+    .card p, .project p {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #2c3e50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ananya Sharma</h1>
+    <p>Frontend Developer • Content Writer • Public Speaker</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <section id="about" class="cards-container">
+    <div class="card">
+      <img src="https://via.placeholder.com/100" alt="Frontend Developer">
+      <h2>Frontend Developer</h2>
+      <p>Crafting responsive, user-friendly interfaces with HTML, CSS, JavaScript, and React.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/100" alt="Content Writer">
+      <h2>Content Writer</h2>
+      <p>Creating compelling articles, blogs, and copy that connect with audiences and drive engagement.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/100" alt="Public Speaker">
+      <h2>Public Speaker</h2>
+      <p>Delivering inspiring talks on tech, creativity, and personal growth at conferences and events.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-container">
+    <div class="project">
+      <img src="https://via.placeholder.com/100" alt="Project 1">
+      <h3>Portfolio Website</h3>
+      <p>A sleek personal portfolio built with HTML, CSS, and JavaScript to showcase skills and projects.</p>
+    </div>
+
+    <div class="project">
+      <img src="https://via.placeholder.com/100" alt="Project 2">
+      <h3>CareerTrail</h3>
+      <p>An AI career coach.</p>
+    </div>
+
+    <div class="project">
+      <img src="https://via.placeholder.com/100" alt="Project 3">
+      <h3>Upcoming</h3>
+      <p>soon.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Ananya Sharma. All rights reserved.
+  </footer>
+
+</body>
+</html>
